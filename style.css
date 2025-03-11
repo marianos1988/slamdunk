@@ -1,0 +1,100 @@
+
+
+
+/*Header Version PC*/
+
+.span12.text-center.font-small {
+	z-index: 99;
+}
+
+
+.container header .row-fluid.search-logo-cart-container {
+	background: rgb(221,177,32);
+	background: radial-gradient(circle, rgba(221,177,32,1) 0%, rgba(255,155,5,1) 67%);;
+}
+
+.logo-img-container.mobile-logo-home.text-center-xs a img {
+	border-radius: 20px ;
+	border: 2px solid #000;
+	border-radius: 50px;
+	box-shadow:  10px 10px 35px #bebebe,-10px -10px 35px #fff;
+}
+
+.logo-img-container.mobile-logo-home.text-center-xs a img:hover {
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+	transition: all .4s ease-in;
+}
+
+.span4.col-xs-3-custom .searchbox.p-relative.hidden-phone {
+	transform: translateX(25px);
+}
+
+.js-search-container.js-search-form input {
+	background-color: #fff !important;
+	border: #000 solid 2px !important;
+	color: #000 !important;
+	border-radius: 10px;
+    padding: 5px !important;
+	box-shadow:  20px 20px 60px #bebebe,
+	-20px -20px 60px #ffffff;
+}
+
+.js-search-container.js-search-form input:focus {
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+	transition: all .4s ease-in;
+
+}
+
+.btn.btn-desktop-search svg:hover {
+	fill: rgba(255,155,5,1);
+	transform: scale(1.2);
+	transition: all .4s ease-in;
+}
+
+.user-access.font-small-extra.m-right-quarter.align-middle.hidden-phone {
+	transform: translateX(25px);
+}
+
+.user-access.font-small-extra.m-right-quarter.align-middle.hidden-phone a {
+	font-size: 11px;
+	font-weight: 900;
+	padding: 3px;
+	border-radius: 15px;
+	text-decoration: none;
+}
+
+.user-access.font-small-extra.m-right-quarter.align-middle.hidden-phone a:hover {
+	color: #fff;
+	border: 2px solid #fff;
+	transition: all .4s ease-in;
+}
+
+.js-toggle-cart.js-fullscreen-modal-open.h5 .svg-inline--fa:hover {
+	fill: #fff;
+	transition: all .4s ease-in;
+
+}
+
+.cart-summary.p-relative.d-inline-block {
+	transform: translate(-7px, -46px);
+}
+
+.cart-summary.p-relative.d-inline-block:hover {
+	border: 2px solid white;
+    border-radius: 15px;
+}
+
+@media (min-width:770px) AND (max-width:818px) {
+
+	.cart-summary.p-relative.d-inline-block {
+		transform: translate(-7px, -46px);
+	}
+
+	.user-access.font-small-extra.m-right-quarter.align-middle.hidden-phone {
+		transform: translate(-15px, 20px);
+	}
+}
