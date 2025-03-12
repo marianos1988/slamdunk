@@ -1,5 +1,14 @@
 
+.btn-whatsapp:hover {
+	
+	background-color: #1fce5f;
+	outline: 2px rgba(255,155,5,1) solid;
+	transition: all .5s;
+	-webkit-box-shadow: 0px 0px 20px -2px rgba(221,177,32,1) ;
+	-moz-box-shadow: 0px 0px 20px -2px rgba(221,177,32,1) ;
+	box-shadow: 0px 0px 20px -2px rgba(221,177,32,1) ;
 
+}
 
 /*Header Version PC*/
 
@@ -10,6 +19,7 @@
 
 .container header .row-fluid.search-logo-cart-container {
 	background: rgb(221,177,32);
+	width: 100%;
 	background: radial-gradient(circle, rgba(221,177,32,1) 0%, rgba(255,155,5,1) 67%);;
 }
 
@@ -105,6 +115,7 @@
 @media (max-width: 769px) {
 	.cart-summary.p-relative.d-inline-block {
 		transform: translate(-7px, 0px);
+		padding: 4px !important;
 	}
 }
 
@@ -123,3 +134,59 @@
 	font-size: 11px;
 	font-weight: 900;
 }
+
+/* Navbar para PC*/
+
+.desktop-nav,
+.desktop-nav-list {
+border-radius: 10px;
+background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
+box-shadow: 15px 15px 40px #8f8d8d, -15px -15px 40px #ccc;
+			 padding: 14px 0px;
+			 font-size: 10px;
+			 font-weight: 600;
+			 letter-spacing: 1px;
+			 text-decoration: none;
+}
+
+.js-desktop-nav.desktop-nav.hidden-phone.font-small .js-desktop-nav-item.desktop-nav-item.js-nav-main-item {
+	border-radius: 10px;
+	background-color: rgba(255,155,5,1);
+	text-decoration: none;
+	border: 2px #fff solid;
+	font-weight: 900;
+}
+
+.js-desktop-nav.desktop-nav.hidden-phone.font-small .js-desktop-nav-item.desktop-nav-item.js-nav-main-item:hover {
+
+	background-color: rgba(221,177,32,1);
+	text-decoration: none;
+	border: 2px #858585 solid;
+	transition: all .4s ease-in;
+}
+
+.js-desktop-nav-item.desktop-nav-item.js-nav-main-item.current {
+	background-color: rgba(221,177,32,1) !important;
+	border: 2px #858585 solid !important;
+
+}
+
+.nav-item-container .nav-list-link.desktop-nav-link.position-relative,
+.js-desktop-nav-item.desktop-nav-item.js-nav-main-item .nav-list-link.desktop-nav-link {
+	text-decoration: none;
+	color: #fff;
+	border: none;
+}
+
+.nav-item-container .nav-list-link.desktop-nav-link.position-relative:hover,
+.js-desktop-nav-item.desktop-nav-item.js-nav-main-item .nav-list-link.desktop-nav-link:hover {
+	color: #858585;
+
+	transition: all .4s ease-in;
+}
+
+.js-desktop-nav-item.desktop-nav-item.js-nav-main-item.current .nav-list-link.desktop-nav-link.current {
+	color: #858585;
+}
+
+
