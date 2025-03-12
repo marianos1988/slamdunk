@@ -171,6 +171,8 @@ box-shadow: 15px 15px 40px #8f8d8d, -15px -15px 40px #ccc;
 
 }
 
+
+
 .nav-item-container .nav-list-link.desktop-nav-link.position-relative,
 .js-desktop-nav-item.desktop-nav-item.js-nav-main-item .nav-list-link.desktop-nav-link {
 	text-decoration: none;
@@ -181,11 +183,11 @@ box-shadow: 15px 15px 40px #8f8d8d, -15px -15px 40px #ccc;
 .nav-item-container .nav-list-link.desktop-nav-link.position-relative:hover,
 .js-desktop-nav-item.desktop-nav-item.js-nav-main-item .nav-list-link.desktop-nav-link:hover {
 	color: #858585;
-
 	transition: all .4s ease-in;
 }
 
-.js-desktop-nav-item.desktop-nav-item.js-nav-main-item.current .nav-list-link.desktop-nav-link.current {
+.js-desktop-nav-item.desktop-nav-item.js-nav-main-item.current .nav-list-link.desktop-nav-link.current,
+.js-desktop-nav-item.js-item-subitems-desktop.desktop-nav-item.js-nav-main-item.current div a {
 	color: #858585;
 }
 
